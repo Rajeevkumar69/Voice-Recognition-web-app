@@ -1,1 +1,116 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+        --blue-1: #3c429e;
+        --blue-2: #4c52ad;
+        --yellow-1: #fac742;
+        --grey-1: #ededed;
+        --shadow-dark: #rgba(0, 0, 0, 0.3);
+        --shadow-light: #rgba(255, 255, 255, 0.1);
+
+}
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+        width: 100%;
+        height: 100vh;
+        background-color: var(--blue-1);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.container {
+        width: 400px;
+        height: 80vh;
+        background-color: var(--blue-2);
+        border-radius: 20px;
+        box-shadow: 20px 20px 20px var(--shadow-dark);
+}
+
+
+
+.height {
+
+        height: 30vh;
+}
+
+.form {
+
+        position: relative;
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 13px;
+}
+
+.form .fa-search {
+
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        color: #9ca3af;
+
+}
+
+.form span {
+
+        position: absolute;
+        margin-left: 40vh;
+        top: 13px;
+        padding: 6px 16px;
+        cursor: pointer;
+        border-left: 1px solid #d1d5db;
+
+        &:hover {
+                transition: 200ms;
+                color: #999;
+        }
+
+}
+
+.left-pan {
+        padding-left: 7px;
+}
+
+.left-pan i {
+
+        padding-left: 10px;
+}
+
+.form-input {
+
+        height: 55px;
+        text-indent: 33px;
+        border-radius: 10px;
+        width: 50vh;
+}
+
+.form-input:focus {
+
+        box-shadow: none;
+        border: none;
+}
+
+.text {
+        background-color: var(--grey-1);
+        border-radius: 8px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 81%;
+        height: 50%;
+        margin-top: 20px;
+}
+
+.row .text {
+        align-items: center;
+        justify-content: center;
+        margin-left: 25.5px;
+}
