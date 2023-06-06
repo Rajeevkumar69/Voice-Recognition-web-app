@@ -1,22 +1,19 @@
 <div class="container">
         <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-8">
                         <p class="heading">Try your voice</p>
                         <hr>
-                        <div class="row height d-flex  align-items-center">
-                                <div class="col-md-8">
-                                        <div class="form">
-                                                <i class="fa fa-search"></i>
-                                                <input type="text" class="form-control form-input"
-                                                        placeholder="Speak anything...">
-                                                <span class="left-pan"><i (click)="startService()"
-                                                                class="fa fa-microphone"></i></span>
-                                        </div>
+                        <div class="col-md-6">
+                                <div class="form">
+                                        <i class="fa fa-search"></i>
+                                        <input type="text" class="form-control form-input"
+                                                placeholder="Speak anything...">
+                                        <span class="left-pan"><i (click)="startService()"
+                                                        class="fa fa-microphone"></i></span>
                                 </div>
                                 <div class="text">
                                         <p>{{service.text}}</p>
                                 </div>
-
                         </div>
                 </div>
         </div>
